@@ -1,10 +1,10 @@
-import Image from "next/image"
-import { cn } from "@/lib/utils"
+import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 interface OfficeGalleryProps {
-  name: string
-  imageSrc: string
-  className?: string
+  name: string;
+  imageSrc: string;
+  className?: string;
 }
 
 export function OfficeGallery({
@@ -14,10 +14,10 @@ export function OfficeGallery({
 }: OfficeGalleryProps) {
   return (
     <div className={cn("group overflow-hidden", className)}>
-      <h3 className="mb-4 text-center font-serif text-2xl font-light tracking-[0.3em] text-foreground uppercase md:text-3xl">
+      {/* <h3 className="mb-4 text-center font-serif text-2xl font-light tracking-[0.3em] text-foreground uppercase md:text-3xl">
         {name}
-      </h3>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
+      </h3> */}
+      <div className="relative aspect-[9/16] overflow-hidden rounded-lg">
         <Image
           src={imageSrc}
           alt={`Unidade ${name}`}
@@ -27,5 +27,5 @@ export function OfficeGallery({
         />
       </div>
     </div>
-  )
+  );
 }

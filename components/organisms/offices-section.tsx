@@ -1,22 +1,32 @@
-"use client"
+"use client";
 
-import { SectionHeading } from "@/components/atoms/section-heading"
-import { GoldDivider } from "@/components/atoms/gold-divider"
-import { OfficeGallery } from "@/components/molecules/office-gallery"
-import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll"
+import { SectionHeading } from "@/components/atoms/section-heading";
+import { GoldDivider } from "@/components/atoms/gold-divider";
+import { OfficeGallery } from "@/components/molecules/office-gallery";
+import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll";
 
 const offices = [
   {
     name: "Maceió",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/21-DcQBat5wyr0K3pz81nkgeBi7YkIttx.png",
+    imageSrc: "/images/uni-maceio.png",
   },
   {
     name: "Teotônio Vilela",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/22-9jIXQtdvgDBVKVoH36zLOiUOpZPJcs.png",
+    imageSrc: "/images/uni-teotonio-vilela.png",
   },
-]
+  {
+    name: "Junqueiro",
+    imageSrc: "/images/uni-junqueiro.png",
+  },
+  {
+    name: "Palmeira dos Índios",
+    imageSrc: "/images/uni-palm-dos-indios.png",
+  },
+  {
+    name: "Arapiraca",
+    imageSrc: "/images/uni-arapiraca.png",
+  },
+];
 
 export function OfficesSection() {
   return (
@@ -31,22 +41,24 @@ export function OfficesSection() {
 
         <AnimateOnScroll variant="fade-up" delay={150}>
           <p className="mx-auto mb-16 max-w-2xl text-center text-sm leading-relaxed text-muted-foreground">
-            Presente em Arapiraca, Maceió, Teotônio Vilela, Junqueiro, São Sebastião e Palmeira dos Índios,
-            fortalecendo nossa presença regional.
+            Presente em Arapiraca, Maceió, Teotônio Vilela, Junqueiro, São
+            Sebastião e Palmeira dos Índios, fortalecendo nossa presença
+            regional.
           </p>
         </AnimateOnScroll>
 
         <div className="grid gap-12 md:grid-cols-2">
           {offices.map((office, idx) => (
-            <AnimateOnScroll key={office.name} variant="fade-up" delay={idx * 200}>
-              <OfficeGallery
-                name={office.name}
-                imageSrc={office.imageSrc}
-              />
+            <AnimateOnScroll
+              key={office.name}
+              variant="fade-up"
+              delay={idx * 200}
+            >
+              <OfficeGallery name={office.name} imageSrc={office.imageSrc} />
             </AnimateOnScroll>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -1,66 +1,90 @@
-"use client"
+"use client";
 
-import { SectionHeading } from "@/components/atoms/section-heading"
-import { GoldDivider } from "@/components/atoms/gold-divider"
-import { TeamMemberCard } from "@/components/molecules/team-member-card"
-import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll"
+import { SectionHeading } from "@/components/atoms/section-heading";
+import { GoldDivider } from "@/components/atoms/gold-divider";
+import { TeamMemberCard } from "@/components/molecules/team-member-card";
+import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll";
 
 const teamMembers = [
+  // --- MEMBROS DA IMAGEM 14 ---
   {
     name: "Dr. Vitor Castro",
     oab: "OAB/AL 13.646",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/vitor-castro.png", // Substitua pelo caminho da foto recopngda
   },
   {
     name: "Dr. Kleber Barros",
     oab: "OAB/AL 13.647",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/kleber-barros.png",
   },
   {
     name: "Dr. Max Cavalcante",
     oab: "OAB/AL 13.648",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/max-cavalcante.png",
   },
   {
     name: "Dra. Jéssica Júlia",
     oab: "OAB/AL 14.703",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/jessica-julia.png",
   },
   {
     name: "Dr. Newton Vasconcelos",
     oab: "OAB/AL 15.607",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/newton-vasconcelos.png",
   },
   {
     name: "Dr. Willames Oliveira",
     oab: "OAB/AL 16.291",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/willames-oliveira.png",
   },
   {
     name: "Dr. Eduardo Anselmo",
     oab: "OAB/AL 18.213",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/eduardo-anselmo.png",
   },
   {
     name: "Dra. Mariana Rodrigues",
     oab: "OAB/AL 19.017",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/mariana-rodrigues.png",
   },
   {
     name: "Leangelo Berto",
     oab: "OAB/AL 15.548",
-    imageSrc:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/14-aMVlqFfy9ZxQ91b3MO39K50oXAxqeX.png",
+    imageSrc: "/images/photos/leangelo-berto.png",
   },
-]
+
+  // --- MEMBROS DA IMAGEM 15 ---
+  {
+    name: "Ynara Lima",
+    oab: "OAB/AL 22.876",
+    imageSrc: "/images/photos/ynara-lima.png",
+  },
+  {
+    name: "Dr. Juranilson Júnior",
+    oab: "OAB/AL 20.903",
+    imageSrc: "/images/photos/juranilson-junior.png",
+  },
+  {
+    name: "Dra. Mirian Monteiro",
+    oab: "OAB/AL 20.744",
+    imageSrc: "/images/photos/mirian-monteiro.png",
+  },
+  {
+    name: "Arthur Antero",
+    oab: "Assistente Jurídico",
+    imageSrc: "/images/photos/arthur-antero.png",
+  },
+  {
+    name: "Rosana Albuquerque",
+    oab: "OAB/AL 22.502",
+    imageSrc: "/images/photos/rosana-albuquerque.png",
+  },
+  {
+    name: "Emilly Maia",
+    oab: "Assistente Jurídica",
+    imageSrc: "/images/photos/emilly-maia.png",
+  },
+];
 
 export function TeamSection() {
   return (
@@ -75,7 +99,11 @@ export function TeamSection() {
 
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:gap-6">
           {teamMembers.map((member, idx) => (
-            <AnimateOnScroll key={member.oab} variant="fade-up" delay={idx * 80}>
+            <AnimateOnScroll
+              key={member.oab}
+              variant="fade-up"
+              delay={idx * 80}
+            >
               <TeamMemberCard
                 name={member.name}
                 oab={member.oab}
@@ -86,5 +114,5 @@ export function TeamSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
