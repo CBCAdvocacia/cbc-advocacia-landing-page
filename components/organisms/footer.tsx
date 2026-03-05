@@ -24,7 +24,7 @@ export function Footer() {
             </span>
             <p className="text-sm leading-relaxed text-muted-foreground">
               Castro Barros Cavalcante - Qualidade, eficiência e excelência na
-              prestação de serviços jurídicos há mais de 9 anos.
+              prestação de serviços jurídicos há mais de 10 anos.
             </p>
           </div>
 

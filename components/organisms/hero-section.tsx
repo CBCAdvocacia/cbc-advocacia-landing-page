@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { GoldDivider } from "@/components/atoms/gold-divider"
-import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll"
+import Image from "next/image";
+import { GoldDivider } from "@/components/atoms/gold-divider";
+import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll";
 
 export function HeroSection() {
   return (
@@ -52,8 +52,9 @@ export function HeroSection() {
 
         <AnimateOnScroll variant="fade-up" delay={700}>
           <p className="mx-auto max-w-xl text-base leading-relaxed text-muted-foreground">
-            Qualidade, eficiência e excelência na prestação de serviços jurídicos.
-            Mais de 9 anos de experiência em assessoria jurídica empresarial.
+            Qualidade, eficiência e excelência na prestação de serviços
+            jurídicos. Mais de 10 anos de experiência em assessoria jurídica
+            empresarial.
           </p>
         </AnimateOnScroll>
 
@@ -82,5 +83,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

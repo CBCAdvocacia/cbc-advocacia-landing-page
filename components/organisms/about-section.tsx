@@ -93,7 +93,7 @@ export function AboutSection() {
               <div className="grid grid-cols-3 gap-6 border-t border-border pt-8">
                 <div className="text-center">
                   <span className="block font-serif text-3xl font-light text-gold md:text-4xl">
-                    9+
+                    10+
                   </span>
                   <span className="mt-1 block text-xs tracking-wider text-muted-foreground uppercase">
                     Anos de Experiência

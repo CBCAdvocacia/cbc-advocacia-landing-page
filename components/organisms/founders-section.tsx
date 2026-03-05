@@ -19,7 +19,7 @@ const founders = [
     name: "Dr. Kleber Barros",
     bio: [
       "<strong>Dr. Kleber Barros é natural da cidade de Maceió, mas criou raízes em Arapiraca</strong> desde seus primeiros anos de vida, se considerando assim um filho da terra.",
-      "Sua vocação para o direito surgiu bem cedo, ainda quando era estudante do ensino médio, e foi alimentada por sua mãe, <strong>Dra. Graça Rezende, procuradora do estado aposentada e nome de grande reconhecimento na comunidade jurídica local.</strong> Optando pelo foco em demandas voltadas a seara de famílias e sucessões, é <strong>pós graduado no tema e responsável pela coordenação de demandas cíveis do escritório</strong> ao longo dos seus 9 (nove) anos de experiência profissional.",
+      "Sua vocação para o direito surgiu bem cedo, ainda quando era estudante do ensino médio, e foi alimentada por sua mãe, <strong>Dra. Graça Rezende, procuradora do estado aposentada e nome de grande reconhecimento na comunidade jurídica local.</strong> Optando pelo foco em demandas voltadas a seara de famílias e sucessões, é <strong>pós graduado no tema e responsável pela coordenação de demandas cíveis do escritório</strong> ao longo dos seus 10 (nove) anos de experiência profissional.",
       "Tal atividade de alta complexidade e casos diversos, lhe trouxe sensibilidade e técnica para gerir negociações, sempre na busca do melhor resultado para nossos clientes. <strong>Envolvido em questões institucionais, é atualmente Conselheiro da OAB, subseção de Arapiraca.</strong>",
     ],
     imageSrc: "/images/photos/founder-kleber-barros.png",

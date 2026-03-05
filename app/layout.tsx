@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     icon: "/images/logo-cbc-icon.ico",
   },
   description:
-    "Escritório de advocacia especializada em Arapiraca/AL. Assessoria jurídica para empresas com mais de 9 anos de experiência, equipe multidisciplinar e presença regional.",
+    "Escritório de advocacia especializada em Arapiraca/AL. Assessoria jurídica para empresas com mais de 10 anos de experiência, equipe multidisciplinar e presença regional.",
   keywords: [
     "advocacia",
     "escritório de advocacia",
