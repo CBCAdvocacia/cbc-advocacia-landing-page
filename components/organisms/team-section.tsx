@@ -6,11 +6,10 @@ import { TeamMemberCard } from "@/components/molecules/team-member-card";
 import { AnimateOnScroll } from "@/components/atoms/animate-on-scroll";
 
 const teamMembers = [
-  // --- MEMBROS DA IMAGEM 14 ---
   {
     name: "Dr. Vitor Castro",
     oab: "OAB/AL 13.646",
-    imageSrc: "/images/photos/vitor-castro.png", // Substitua pelo caminho da foto recopngda
+    imageSrc: "/images/photos/vitor-castro.png",
   },
   {
     name: "Dr. Kleber Barros",
@@ -52,8 +51,6 @@ const teamMembers = [
     oab: "OAB/AL 15.548",
     imageSrc: "/images/photos/leangelo-berto.png",
   },
-
-  // --- MEMBROS DA IMAGEM 15 ---
   {
     name: "Ynara Lima",
     oab: "OAB/AL 22.876",
