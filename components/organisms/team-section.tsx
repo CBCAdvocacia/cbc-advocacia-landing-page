@@ -94,7 +94,7 @@ export function TeamSection() {
           <GoldDivider className="mx-auto mb-16 max-w-xs" />
         </AnimateOnScroll>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:gap-6">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4 lg:gap-6">
           {teamMembers.map((member, idx) => (
             <AnimateOnScroll
               key={member.oab}
