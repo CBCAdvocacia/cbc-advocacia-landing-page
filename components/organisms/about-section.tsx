@@ -43,7 +43,7 @@ export function AboutSection() {
                 toda a região pela qualidade, eficiência e excelência na
                 prestação de serviços jurídicos.{" "}
                 <strong className="text-foreground">
-                  Com mais de nove anos de experiência,
+                  Com mais de dez anos de experiência,
                 </strong>{" "}
                 destacamo-nos pela forma estratégica com que conduzimos cada
                 demanda, sempre com foco em resultados sólidos, responsabilidade
