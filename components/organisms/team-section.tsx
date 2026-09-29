@@ -9,17 +9,17 @@ const teamMembers = [
   {
     name: "Dr. Vitor Castro",
     oab: "OAB/AL 13.646",
-    imageSrc: "/images/photos/vitor-castro.png",
+    imageSrc: "/images/photos/vitor-castro.jpg",
   },
   {
     name: "Dr. Kleber Barros",
     oab: "OAB/AL 13.647",
-    imageSrc: "/images/photos/kleber-barros.png",
+    imageSrc: "/images/photos/kleber-barros.jpg",
   },
   {
     name: "Dr. Max Cavalcante",
     oab: "OAB/AL 13.648",
-    imageSrc: "/images/photos/max-cavalcante.png",
+    imageSrc: "/images/photos/max-cavalcante.jpg",
   },
   {
     name: "Dra. Jéssica Júlia",
@@ -52,11 +52,6 @@ const teamMembers = [
     imageSrc: "/images/photos/leangelo-berto.png",
   },
   {
-    name: "Ynara Lima",
-    oab: "OAB/AL 22.876",
-    imageSrc: "/images/photos/ynara-lima.png",
-  },
-  {
     name: "Dr. Juranilson Júnior",
     oab: "OAB/AL 20.903",
     imageSrc: "/images/photos/juranilson-junior.png",
@@ -78,7 +73,7 @@ const teamMembers = [
   },
   {
     name: "Emilly Maia",
-    oab: "Assistente Jurídica",
+    oab: "OAB/AL 24.137",
     imageSrc: "/images/photos/emilly-maia.png",
   },
 ];

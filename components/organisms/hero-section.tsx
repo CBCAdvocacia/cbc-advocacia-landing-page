@@ -10,7 +10,7 @@ export function HeroSection() {
       {/* Background image with overlay */}
       <div className="absolute inset-0">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/2-ZXVTPIf28ep7H2weKHUFMQmBPNKTsd.png"
+          src="images/fachada-compressed.jpg"
           alt="Fachada do escritório CBC Advocacia Especializada"
           fill
           className="object-cover object-top opacity-20"
