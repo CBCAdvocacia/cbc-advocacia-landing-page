@@ -32,7 +32,7 @@ export function CommunitySection() {
             </AnimateOnScroll>
             <AnimateOnScroll variant="fade-left" delay={350}>
               <div className="space-y-5">
-                <p className="text-base leading-relaxed text-muted-foreground">
+                <p className="text-base leading-relaxed text-muted-foreground text-justify">
                   <strong className="text-foreground">
                     O Fazendo Negócios Direito
                   </strong>{" "}
@@ -69,7 +69,7 @@ export function CommunitySection() {
               className="lg:order-2"
             >
               <div className="space-y-5">
-                <p className="text-base leading-relaxed text-muted-foreground">
+                <p className="text-base leading-relaxed text-muted-foreground text-justify">
                   Participação, como representantes da OAB, em{" "}
                   <strong className="text-foreground">
                     eventos relevantes do sistema de segurança pública,

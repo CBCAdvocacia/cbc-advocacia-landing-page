@@ -33,7 +33,7 @@ export function AboutSection() {
           {/* Text */}
           <div className="space-y-6">
             <AnimateOnScroll variant="fade-left" delay={300}>
-              <p className="text-base leading-relaxed text-muted-foreground">
+              <p className="text-base leading-relaxed text-muted-foreground text-justify">
                 O CBC Advocacia Especializada é um escritório reconhecido em{" "}
                 Arapiraca/AL e em toda a região pela qualidade, eficiência e
                 excelência na prestação de serviços jurídicos. Com mais de dez
@@ -44,7 +44,7 @@ export function AboutSection() {
             </AnimateOnScroll>
 
             <AnimateOnScroll variant="fade-left" delay={450}>
-              <p className="text-base leading-relaxed text-muted-foreground">
+              <p className="text-base leading-relaxed text-muted-foreground text-justify">
                 Contamos com uma equipe multidisciplinar composta por mais de 50
                 colaboradores, entre advogados e profissionais especializados,
                 atuando com agilidade, ética e compromisso. Além da sede em
@@ -56,7 +56,7 @@ export function AboutSection() {
             </AnimateOnScroll>
 
             <AnimateOnScroll variant="fade-left" delay={600}>
-              <p className="text-base leading-relaxed text-muted-foreground">
+              <p className="text-base leading-relaxed text-muted-foreground text-justify">
                 Nosso foco principal é a assessoria jurídica para empresas,
                 oferecendo suporte completo e contínuo que garante ao empresário
                 estar alinhado com as normas legais, boas práticas e condutas
@@ -66,7 +66,7 @@ export function AboutSection() {
             </AnimateOnScroll>
 
             <AnimateOnScroll variant="fade-left" delay={750}>
-              <p className="text-base leading-relaxed text-muted-foreground">
+              <p className="text-base leading-relaxed text-muted-foreground text-justify">
                 Nossa assessoria é ampla, envolvendo tanto o acompanhamento
                 cotidiano das rotinas empresariais quanto a elaboração de
                 contratos, pareceres técnicos, orientações estratégicas e

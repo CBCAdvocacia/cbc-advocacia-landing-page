@@ -77,7 +77,7 @@ export function FoundersSection() {
                       >
                         {/* Usamos dangerouslySetInnerHTML para renderizar a tag <strong> com segurança */}
                         <p
-                          className="text-base leading-relaxed [&>strong]:font-semibold [&>strong]:text-foreground"
+                          className="text-base leading-relaxed [&>strong]:font-semibold [&>strong]:text-foreground text-justify"
                           dangerouslySetInnerHTML={{ __html: paragraph }}
                         />
                       </AnimateOnScroll>
