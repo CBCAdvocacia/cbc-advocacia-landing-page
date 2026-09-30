@@ -24,7 +24,14 @@ const offices = [
   },
   {
     name: "Arapiraca",
-    imageSrc: "/images/uni-arapiraca.png",
+    images: [
+      "/images/office-arapiraca-01.jpg",
+      "/images/office-arapiraca-02.jpg",
+      "/images/office-arapiraca-03.jpg",
+      "/images/office-arapiraca-04.jpg",
+      "/images/office-arapiraca-05.jpg",
+      "/images/office-arapiraca-06.jpg",
+    ],
   },
 ];
 
@@ -53,8 +60,13 @@ export function OfficesSection() {
               key={office.name}
               variant="fade-up"
               delay={idx * 200}
+              className={office.images ? "md:col-span-2" : undefined}
             >
-              <OfficeGallery name={office.name} imageSrc={office.imageSrc} />
+              <OfficeGallery
+                name={office.name}
+                imageSrc={office.imageSrc}
+                images={office.images}
+              />
             </AnimateOnScroll>
           ))}
         </div>
